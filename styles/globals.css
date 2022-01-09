@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+htmL {
+    background: rgb(64,64,64);
+    background: linear-gradient(0deg, rgba(64,64,64,1) 0%, rgb(25, 23, 23) 100%);
+}
+
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2 {
+    font: bold;
+    text-align: center;
+}
+
+p {
+    padding-top: 0.25em;
+    padding-bottom: 0.25em;
+    padding-right: 1em;
+    padding-left: 1em;
+}
+
+a {
+    color: white;
+}
