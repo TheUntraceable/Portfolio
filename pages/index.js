@@ -8,6 +8,7 @@ export default function Home() {
         <html>
             <Head>
                 <title>The Untraceable</title>
+                <meta name="viewport" content="width=device-width, initial-scale=1.0" />
                 <meta name="description" content="A little website about me." />
                 <link rel="shortcut icon" type="image/jpg" href="https://avatars.githubusercontent.com/u/73362400?v=4" />
                 <meta name="theme-color" content="#000000" />
@@ -16,14 +17,14 @@ export default function Home() {
                 <meta name="og:image" content="https://avatars.githubusercontent.com/u/73362400?v=4" />
             </Head>
             <Navbar />
-            <div className={styles.card} id="#about">
+            <div className={styles.card} id="#about" style={{"marginTop": "3em"}}>
                 <h1>About me</h1>
 
                 <h2>Who am I?</h2>
-                <p>Hi there! I'm The Untraceable, I am a soft developer who loves to use Javascript and Python as much as possible in my daily life.</p>
+                <p>Hi there! I'm The Untraceable, I am a software developer who loves to use Javascript and Python as much as possible in my daily life.</p>
                 <p>Solving problems? Making a website? Making sure that no Machine Learning algorithm tries to end humanity because someone forgot to implement a fail safe? I wanna try fix it.</p>
                 <p>I mainly started off by using Python in December of 2020, but slowly started to shift to Javascript as much as I can because I feel it has more than Python has.</p>
-                <p>I might start working on my knowledge for Typescript as I love to typehint, but not sure if I'd have any other uses for it.</p>
+                <p>I might start working on my knowledge regarding Typescript as I love to typehint, but not sure if I'd have any other uses for it.</p>
                 <p>I try my hardest to not waste anything on my projects, such as making a 50 line class just to add some caching and not have to rewrite my entire implementation of the previous class.</p>
             </div>
             <div className={styles.card} id="resume">
@@ -50,7 +51,7 @@ export default function Home() {
                 <p>-<a href="https://github.com/EpikHost/EpikCord.py">EpikCord.py</a> an API Wrapper for Discord's API Wrapper written in Python following the discontinuation for Discord.py.</p>
                 <p>-<a href="https://github.com/TheUntraceable/NoteManager">Note Manager</a> a Discord Bot that allows you to create notes and share them with other people I gave up on the PostgreSQL branch as it raised an error that isn't my fault.</p>
             </div>
-            <div className={styles.card}>
+            <div className={styles.card} id="contact">
                 <h2>Contact</h2>
                 <p>Feel free to contact me on any of the following: </p>
                 <p>Discord @ The Untraceable#4852</p>
